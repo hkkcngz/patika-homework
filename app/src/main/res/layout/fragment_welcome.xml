@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".view.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/homeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_welcome_pic" />
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="53dp"
+        android:fontFamily="@font/nunito_sans_black"
+        android:text="@string/homeTitle"
+        android:textAlignment="center"
+        android:textSize="39sp"
+        android:textColor="#2C2B47"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/homeSubtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:fontFamily="@font/nunito_sans"
+        android:textSize="17sp"
+        android:textColor="#B9B8C6"
+        android:text="@string/homeSubtitle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="95dp"
+        android:layout_marginTop="73dp"
+        android:background="@color/main_color"
+        android:textColor="#ffffff"
+        android:text="@string/homeButton"
+        android:textAlignment="center"/>
+
+
+</LinearLayout>

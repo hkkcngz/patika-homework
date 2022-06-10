@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.ForgotActivity">
+
+
+    <ImageView
+        android:id="@+id/homeImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:srcCompat="@drawable/ic_forgot" />
+
+    <TextView
+        android:id="@+id/homeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/nunito_sans_black"
+        android:text="@string/forgotTitle"
+        android:textAlignment="center"
+        android:textColor="#2C2B47"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/ic_rectangle"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="9dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingHorizontal="12dp"
+        android:paddingVertical="12.5dp"
+        android:text="@string/loginInput01"
+        android:textColor="@color/main_color" />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/shape_login"
+        android:fontFamily="@font/aldrich_regular"
+        android:text="@string/forgotButton"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/txtOr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_sans"
+        android:layout_marginTop="160dp"
+        android:text="@string/forgotOr"
+        android:textAlignment="center"
+        android:textColor="#B9B8C6"
+        android:textColorLink="@color/main_color"
+        android:textSize="17sp" />
+
+
+
+
+</LinearLayout>

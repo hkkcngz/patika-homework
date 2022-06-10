@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "951516014065",
+    "project_id": "patika-login",
+    "storage_bucket": "patika-login.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951516014065:android:3d69d783c38e0537659050",
+        "android_client_info": {
+          "package_name": "com.largeproject.figmadesigns"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951516014065-50bloi9u124gaml1i5ettc38m2dppcsh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.largeproject.figmadesigns",
+            "certificate_hash": "8d40f008bfec0ab6dbf30d2bfb84a6210f879158"
+          }
+        },
+        {
+          "client_id": "951516014065-jsogsqbgnepmmfcg4p2npsjuk8hsvoht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoiLbpyocit9Q9GNyLceGYyAuHtdqk97Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "951516014065-jsogsqbgnepmmfcg4p2npsjuk8hsvoht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
