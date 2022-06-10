@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FigmaDesigns</string>
+
+
+    <string name="homeTitle">Learn at home!</string>
+    <string name="homeSubtitle">efficiently and effectively</string>
+    <string name="homeButton">Start Now</string>
+
+    <string name="loginTitle">Welcome Back!</string>
+    <string name="loginInput01">example@email.com</string>
+    <string name="loginInput02">password</string>
+    <string name="loginForgot">Forgot Password?</string>
+    <string name="loginButton">LOG IN</string>
+    <string name="loginOr">Or connect with social</string>
+    <string name="loginFb">Facebook</string>
+    <string name="loginGo">Google</string>
+
+
+    <string name="forgotTitle">Forgot Password</string>
+    <string name="forgotButton">RESET</string>
+    <string name="forgotOr">Already have an account <a href=''>Login here</a></string>
+    <string name="forgotLogin">Login here</string>
+
+
+</resources>

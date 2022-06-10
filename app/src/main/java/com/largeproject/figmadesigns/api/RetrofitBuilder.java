@@ -1,21 +1,34 @@
-package com.largeproject.figmadesigns;
+package com.largeproject.figmadesigns.api;
+
+import com.jakewharton.retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 public class RetrofitBuilder {
-    private static String BASE_URL = "https://api.minerstat.com/v2/";
-    private static Retrofit retrofit;
+    private static final String BASE_URL = "https://api.minerstat.com/";
+    private static RetrofitBuilder INSTANCE;
 
-    public static Retrofit getClient(){
-        if (retrofit == null){
-            retrofit = new Retrofit.Builder()
-                    .baseUrl(BASE_URL)
-                    .addConverterFactory(GsonConverterFactory.create())
-                    .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
-                    .build();
-            return retrofit;
+    private RetrofitBuilder() {
+    }
+
+    public static RetrofitBuilder getInstance() {
+        if (INSTANCE == null) {
+            synchronized (RetrofitBuilder.class) {
+                if (INSTANCE == null) {
+                    INSTANCE = new RetrofitBuilder();
+                }
+            }
         }
-        return retrofit;
+
+        return INSTANCE;
+    }
+
+    public Api getAPI() {
+        return new Retrofit.Builder()
+                .baseUrl(BASE_URL)
+                .addConverterFactory(GsonConverterFactory.create())
+                .build()
+                .create(Api.class);
     }
 }

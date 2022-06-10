@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/FigmaDesigns/app/src/main/res/drawable/ic_home_pic.xml" value="0.163" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/FigmaDesigns/app/src/main/res/layout/activity_login.xml" value="0.3515625" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/FigmaDesigns/app/src/main/res/layout/activity_main.xml" value="0.3515625" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/drawable/ic_home_pic.xml" value="0.367" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/drawable/ic_rectangle.xml" value="0.367" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/drawable/ic_start_now_button.xml" value="0.367" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/drawable/shape_fb.xml" value="0.366" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/drawable/shape_google.xml" value="0.366" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/drawable/shape_login.xml" value="0.367" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/drawable/shape_pass_edt.xml" value="0.366" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/layout/activity_forgot.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/layout/activity_main.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/layout/fragment_forgot.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/layout/fragment_login.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/layout/fragment_welcome.xml" value="0.274609375" />
+        <entry key="..\:/Users/hakki.cengiz/AndroidStudioProjects/patika-homework/app/src/main/res/layout/welcome_fragment.xml" value="0.273828125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
